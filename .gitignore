@@ -1,0 +1,72 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# =========================
+# Node / React
+# =========================
+node_modules/
+dist/
+.vite/
+
+# =========================
+# VS Code / IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# ML / Model files
+# =========================
+*.bin
+*.pt
+*.pth
+*.onnx
+*.safetensors
+
+# =========================
+# EduSphere generated files
+# =========================
+backend/storage/
+backend/generated_excels/
+
+# =========================
+# Vector databases / generated indexes
+# =========================
+backend/vector_db/
+
+# =========================
+# Uploaded files
+# =========================
+uploads/
+
+# =========================
+# Temporary files
+# =========================
+*.tmp
+*.temp
